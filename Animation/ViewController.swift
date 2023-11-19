@@ -34,6 +34,26 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(goToFirstFightingView), for: .touchUpInside)
         return button
     }()
+    
+    let secondStudyButton : UIButton = {
+        let button = UIButton(frame: CGRect(x: 130, y: 600, width: 200, height: 50))
+        button.setTitle("2주차 스터디!", for: .normal)
+        button.titleLabel?.font = .systemFont(ofSize: 17)
+        button.titleLabel?.textColor = .brown
+        button.layer.backgroundColor = UIColor.black.cgColor
+        button.addTarget(self, action: #selector(goToSecondStudyView), for: .touchUpInside)
+        return button
+    }()
+    
+    let secondFightingButton : UIButton = {
+        let button = UIButton(frame: CGRect(x: 130, y: 700, width: 200, height: 50))
+        button.setTitle("2주차 화이팅!", for: .normal)
+        button.titleLabel?.font = .systemFont(ofSize: 17)
+        button.titleLabel?.textColor = .brown
+        button.layer.backgroundColor = UIColor.black.cgColor
+        button.addTarget(self, action: #selector(goToSecondFightingView), for: .touchUpInside)
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,6 +72,8 @@ class ViewController: UIViewController {
         view.addSubview(testView)
         view.addSubview(testButton)
         view.addSubview(firstFightingButton)
+        view.addSubview(secondStudyButton)
+        view.addSubview(secondFightingButton)
     }
     
     private func didMoveTap() {
@@ -113,5 +135,13 @@ class ViewController: UIViewController {
     
     @objc private func goToFirstFightingView() {
         self.navigationController?.pushViewController(FirstFightingViewController(), animated: true)
+    }
+    
+    @objc private func goToSecondStudyView() {
+        self.navigationController?.pushViewController(SecondStudyViewController(), animated: true)
+    }
+    
+    @objc private func goToSecondFightingView() {
+        self.navigationController?.pushViewController(SecondFightingViewController(), animated: true)
     }
 }
