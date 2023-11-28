@@ -19,3 +19,12 @@
 - UIPanGestureRecognizer를 통해 거북이 돌피하기 게임 만들기
 - 상하좌우에서 돌이 나오도록 구현
 - 거북이가 돌에 맞는 경우 게임이 다시 시작될 수 있도록 구현
+
+# 3주차 화이팅
+
+### 시뮬레이션
+![Simulator Screen Recording - iPhone 15 Pro - 2023-11-28 at 21 25 04](https://github.com/boogios/Animation_Study/assets/59056821/6f959010-6c59-498b-91be-d04406352605)
+
+### 구현 내용
+- CABasicAnimation를 통해 로딩 뷰 구현
+- 무한 반복!
