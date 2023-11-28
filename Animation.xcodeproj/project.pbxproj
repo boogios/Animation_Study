@@ -19,6 +19,8 @@
 		3C7416432B024C2D00EE468F /* SecondStudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7416422B024C2D00EE468F /* SecondStudyViewController.swift */; };
 		3C81307B2B00B4D700D4E18D /* UIButton+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81307A2B00B4D700D4E18D /* UIButton+.swift */; };
 		3C81307D2B00C2AC00D4E18D /* FirstFightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81307C2B00C2AC00D4E18D /* FirstFightingViewController.swift */; };
+		3C9D8B202B160631009D72D0 /* ThirdFightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9D8B1F2B160631009D72D0 /* ThirdFightingViewController.swift */; };
+		3CDB2E932B14C0E500332F9C /* ThirdStudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDB2E922B14C0E500332F9C /* ThirdStudyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		3C7416422B024C2D00EE468F /* SecondStudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondStudyViewController.swift; sourceTree = "<group>"; };
 		3C81307A2B00B4D700D4E18D /* UIButton+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+.swift"; sourceTree = "<group>"; };
 		3C81307C2B00C2AC00D4E18D /* FirstFightingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFightingViewController.swift; sourceTree = "<group>"; };
+		3C9D8B1F2B160631009D72D0 /* ThirdFightingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdFightingViewController.swift; sourceTree = "<group>"; };
+		3CDB2E922B14C0E500332F9C /* ThirdStudyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdStudyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				3C7416422B024C2D00EE468F /* SecondStudyViewController.swift */,
+				3CDB2E922B14C0E500332F9C /* ThirdStudyViewController.swift */,
 			);
 			path = Study;
 			sourceTree = "<group>";
@@ -62,6 +67,7 @@
 			children = (
 				3C81307C2B00C2AC00D4E18D /* FirstFightingViewController.swift */,
 				3C027A212B09E460002ADD11 /* SecondFightingViewController.swift */,
+				3C9D8B1F2B160631009D72D0 /* ThirdFightingViewController.swift */,
 			);
 			path = Fighting;
 			sourceTree = "<group>";
@@ -181,6 +187,8 @@
 				3C2AA2D12AF90E1500562BA2 /* ViewController.swift in Sources */,
 				3C2AA2CD2AF90E1500562BA2 /* AppDelegate.swift in Sources */,
 				3C027A222B09E460002ADD11 /* SecondFightingViewController.swift in Sources */,
+				3CDB2E932B14C0E500332F9C /* ThirdStudyViewController.swift in Sources */,
+				3C9D8B202B160631009D72D0 /* ThirdFightingViewController.swift in Sources */,
 				3C81307D2B00C2AC00D4E18D /* FirstFightingViewController.swift in Sources */,
 				3C2AA2CF2AF90E1500562BA2 /* SceneDelegate.swift in Sources */,
 				3C81307B2B00B4D700D4E18D /* UIButton+.swift in Sources */,

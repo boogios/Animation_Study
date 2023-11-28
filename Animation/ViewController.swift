@@ -54,6 +54,16 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(goToSecondFightingView), for: .touchUpInside)
         return button
     }()
+    
+    let thirdFightingButton : UIButton = {
+        let button = UIButton(frame: CGRect(x: 130, y: 800, width: 200, height: 50))
+        button.setTitle("3주차 화이팅!", for: .normal)
+        button.titleLabel?.font = .systemFont(ofSize: 17)
+        button.titleLabel?.textColor = .brown
+        button.layer.backgroundColor = UIColor.black.cgColor
+        button.addTarget(self, action: #selector(goToThirdFightingView), for: .touchUpInside)
+        return button
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -74,6 +84,7 @@ class ViewController: UIViewController {
         view.addSubview(firstFightingButton)
         view.addSubview(secondStudyButton)
         view.addSubview(secondFightingButton)
+        view.addSubview(thirdFightingButton)
     }
     
     private func didMoveTap() {
@@ -143,5 +154,9 @@ class ViewController: UIViewController {
     
     @objc private func goToSecondFightingView() {
         self.navigationController?.pushViewController(SecondFightingViewController(), animated: true)
+    }
+    
+    @objc private func goToThirdFightingView() {
+        self.navigationController?.pushViewController(ThirdFightingViewController(), animated: true)
     }
 }
