@@ -28,3 +28,12 @@
 ### 구현 내용
 - CABasicAnimation를 통해 로딩 뷰 구현
 - 무한 반복!
+
+# 마지막 화이팅
+
+### 시뮬레이션
+![Simulator Screen Recording - iPhone 15 Pro - 2023-12-22 at 23 03 08](https://github.com/boogios/Animation_Study/assets/59056821/b9862465-e967-48d5-b01c-c1eef11f6e1d)
+
+### 구현 내용
+- CAEmitterLayer를 사용해서 카카오톡 돈봉투 받았을 때, 하트나 돈, 벨소리 사진들이 우수수 떨어지는 애니메이션 구현
+- 커스텀 얼럿창이 나오면서 애니메이션이 나오도록 구현
